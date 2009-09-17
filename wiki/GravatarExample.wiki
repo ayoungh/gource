@@ -2,7 +2,9 @@
 
 == Using Gravatars with Gource ==
 
-Gource can be told to look for images of users in a directory using the --user-image-dir argument.
+[http://www.gravatar.com/ Gravar] is a database of user submitted avatar images each associated with an email address. 
+
+Gource can be told to look for user images in a directory using the --user-image-dir argument. Using the email address associated with the author of each commit we can try and find images for the contributors of a project.
 
 === Example Perl Script ===
 
