@@ -1,6 +1,10 @@
 #summary This example shows how you can get Gravatars for a Git project
 
-= Details =
+== Using Gravatars with Gource ==
+
+Gource can be told to look for images of users in a directory using the --user-image-dir argument.
+
+=== Example Perl Script ===
 
 This perl script when run in your Git project directory will try and fetch Gravar's for each commit author and store them under the folder .git/avatar/ as 'Username.png':
 
