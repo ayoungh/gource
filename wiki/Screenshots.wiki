@@ -2,8 +2,8 @@
 
 Viewing git.git (GIT SCM):
 
-http://gource.google.com/gource-screenshot-1.png
+http://gource.googlecode.com/svn/trunk/gource-screenshot-1.png
 
 Viewing vlc.git (VLC Player):
 
-http://gource.google.com/gource-screenshot-2.png
+http://gource.googlecode.com/svn/trunk/gource-screenshot-2.png
