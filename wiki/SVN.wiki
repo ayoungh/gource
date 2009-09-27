@@ -1,0 +1,22 @@
+#summary Using Gource with SVN projects via git-svn
+
+== Using Gource with SVN projects via git-svn ==
+
+SVN is not supported directly, however you could can import your project into a Git repository using the '`git svn`' command.
+
+The below insturctions will work if your SVN repository has the standard three directories - trunk, tags and branches
+(Otherwise, see the '`git svn`' documentation):
+
+{{{
+git svn init --stdlayout https://myrepo.example.org/svn my-repo.git
+cd my-repo.git
+git svn fetch
+}}}
+
+*Note:* the last command - `git svn fetch` - can take hours if your repository is large.
+
+You can pull new changes into the Git copy of your SVN repository at any time using the following command:
+
+{{{
+git svn rebase
+}}}
