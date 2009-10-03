@@ -1,0 +1,23 @@
+#summary Guide to using gource with Mercurial
+
+[http://code.google.com/u/mwu368/ mwu368] has contributed a python script  [http://gource.googlecode.com/issues/attachment?aid=6626085821485014306&name=mercurial_gourcelog.py mercurial_gourcelog.py] that can be used to show a Mercurial repository in gource using the 'custom' log format option.
+
+Usage:
+
+{{{
+ mercurial_gourcelog.py [OUTPUT_FILE]
+}}}
+
+Where `OUTPUT_FILE` is the output file for the custom log. If `OUTPUT_FILE` is not provided, output will go to stdout.
+
+Example usage with gource (assuming that gource is installed):
+
+{{{
+mercurial_gourcelog.py project.log && gource project.log
+}}}
+
+Or piping directly into gource:
+
+{{{
+mercurial_gourcelog.py | gource --log-format custom -
+}}}
