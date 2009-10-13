@@ -17,3 +17,15 @@ Development of Fiji (courtesy of Johannes Schindelin):
 Gource running on the Git project itself (courtesy of Sam Vilain):
 
 <wiki:video url="http://www.youtube.com/watch?v=GTMC3g2Xy8c"/>
+
+=== MPlayer CE === 
+
+MPlayer CE - an MPlayer fork:
+
+<wiki:video url="http://www.youtube.com/watch?v=4mL1WDfbu84"/>
+
+=== Anomos ===
+
+Anomos P2P file protocol:
+
+<wiki:video url="http://www.youtube.com/watch?v=UHvqOZWz4zU"/>
