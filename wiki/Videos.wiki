@@ -6,6 +6,10 @@ A collection of clips of Gource running against various open source projects:
 
 <wiki:video url="http://www.youtube.com/watch?v=E5xPMW5fg48"/>
 
+=== Fiji === 
+
+<wiki:video url="http://www.youtube.com/watch?v=ZDZvoJX3PDM"/>
+
 === Git ===
 
 Gource running on the Git project itself (courtesy of Sam Vilain):
