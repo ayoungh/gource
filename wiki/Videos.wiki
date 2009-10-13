@@ -8,6 +8,8 @@ A collection of clips of Gource running against various open source projects:
 
 === Fiji === 
 
+Development of Fiji (courtesy of Johannes Schindelin):
+
 <wiki:video url="http://www.youtube.com/watch?v=ZDZvoJX3PDM"/>
 
 === Git ===
