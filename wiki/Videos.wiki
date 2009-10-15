@@ -1,11 +1,5 @@
 #summary Videos of Gource.
 
-=== Promotional Video ===
-
-A collection of clips of Gource running against various open source projects:
-
-<wiki:video url="http://www.youtube.com/watch?v=E5xPMW5fg48"/>
-
 === Fiji === 
 
 Development of Fiji (courtesy of Johannes Schindelin):
