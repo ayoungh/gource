@@ -13,7 +13,7 @@ cd my-repo.git
 git svn fetch
 }}}
 
-*Note:* the last command - `git svn fetch` - can take hours if your repository is large.
+*Note:* `git svn fetch` may take hours if your repository is large.
 
 You can pull new changes into the Git copy of your SVN repository at any time using the following command:
 
