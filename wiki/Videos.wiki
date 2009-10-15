@@ -12,6 +12,12 @@ Development of Fiji (courtesy of Johannes Schindelin):
 
 <wiki:video url="http://www.youtube.com/watch?v=ZDZvoJX3PDM"/>
 
+=== Fotowall ===
+
+History of Fotowall development up to fall 2009:
+
+<wiki:video url="http://www.youtube.com/watch?v=LzmvHaCNXjg"/>
+
 === Git ===
 
 Gource running on the Git project itself (courtesy of Sam Vilain):
