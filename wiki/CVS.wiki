@@ -1,0 +1,13 @@
+#summary Using Gource with CVS projects via cvs-exp
+
+== Using Gource with CVS projects via cvs-exp ==
+
+[http://www.cs.rice.edu/~ssiyer/code/cvs-exp/ cvs-exp] is a tool which converts the CVS log ouput into a more conventional changes grouped together into chronological order that Gource knows how to read.
+
+Assuming cvs-expl.pl is installed, you can generate a log from your CVS project and run in Gource by doing the following:
+
+{{{
+cd my-cvs-project
+cvs-exp.pl -notree > my-cvs-project.log
+gource my-cvs-project.log
+}}}
