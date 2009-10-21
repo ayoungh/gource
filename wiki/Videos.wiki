@@ -15,12 +15,6 @@ You can also adjust the output frame rate with `--output-framerate`. Note you wi
 
 Various videos of projects, created with Gource.
 
-=== Fiji === 
-
-Development of Fiji (courtesy of Johannes Schindelin):
-
-<wiki:video url="http://www.youtube.com/watch?v=ZDZvoJX3PDM"/>
-
 === Fotowall ===
 
 History of Fotowall development up to fall 2009:
@@ -33,14 +27,14 @@ Gource running on the Git project itself (courtesy of Sam Vilain):
 
 <wiki:video url="http://www.youtube.com/watch?v=GTMC3g2Xy8c"/>
 
+=== Fiji === 
+
+Development of Fiji (courtesy of Johannes Schindelin):
+
+<wiki:video url="http://www.youtube.com/watch?v=ZDZvoJX3PDM"/>
+
 === MPlayer CE === 
 
 MPlayer CE - an MPlayer fork:
 
 <wiki:video url="http://www.youtube.com/watch?v=4mL1WDfbu84"/>
-
-=== Anomos ===
-
-Anomos P2P file protocol:
-
-<wiki:video url="http://www.youtube.com/watch?v=UHvqOZWz4zU"/>
