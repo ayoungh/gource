@@ -9,7 +9,7 @@ Synopsis:
 {{{
 cd my-svn-project
 svn log --verbose --xml > my-project.log
-python svn-gource.py my-project.log > my-project-gource.log
+python svn-gource.py --filter-dirs my-project.log > my-project-gource.log
 gource --log-format custom my-project-gource.log
 }}}
 
