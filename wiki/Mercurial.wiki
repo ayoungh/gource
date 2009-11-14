@@ -1,6 +1,8 @@
 #summary Guide to using gource with Mercurial
 
-[http://code.google.com/u/mwu368/ mwu368] has contributed a python script  [http://gource.googlecode.com/issues/attachment?aid=6626085821485014306&name=mercurial_gourcelog.py mercurial_gourcelog.py] that can be used to show a Mercurial repository in gource using the 'custom' log format option.
+== mercurial_gourcelog.py ==
+
+[http://code.google.com/u/mwu368/ mwu368] has contributed a python script  [http://gource.googlecode.com/files/mercurial_gourcelog.py mercurial_gourcelog.py] that can be used to show a Mercurial repository in gource using the 'custom' log format option.
 
 Usage:
 
