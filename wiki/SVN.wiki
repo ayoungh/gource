@@ -13,6 +13,8 @@ python svn-gource.py --filter-dirs my-project.log > my-project-gource.log
 gource --log-format custom my-project-gource.log
 }}}
 
+*Note*: The `--filter-dirs` option treats paths without extensions as directories and filters them out (files and directories are ambiguous in the SVN log output so this is a work around).
+
 == Using Gource with SVN projects via git-svn ==
 
 Another approach you can take to use Gource with your SVN project is to import your project into a Git repository using the '`git svn`' command.
