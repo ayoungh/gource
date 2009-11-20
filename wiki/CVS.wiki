@@ -2,7 +2,7 @@
 
 == Using Gource with CVS projects via cvs-exp ==
 
-[http://www.cs.rice.edu/~ssiyer/code/cvs-exp/ cvs-exp] is a tool which converts the CVS log ouput into a more conventional changes grouped together into chronological order that Gource knows how to read.
+[http://www.cs.rice.edu/~ssiyer/code/cvs-exp/ cvs-exp] ([http://gource.googlecode.com/files/cvs-exp.pl local copy]) is a tool which converts the CVS log ouput into a more conventional changes grouped together into chronological order that Gource knows how to read.
 
 Assuming cvs-expl.pl is installed, you can generate a log from your CVS project and run in Gource by doing the following:
 
