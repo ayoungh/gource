@@ -6,7 +6,9 @@ A snapshot of a flurry of development on the [http://www.linux.org/ Linux] proje
 
 As Linux is a huge C language project, the files being worked on are predominately a mix of *.c* (shown in green) and *.h* header files (in red).
 
-The names of the most recently touched files seen in white and slowly fade out. One file, `main.c`, being inspected interactively with the mouse is highlighted in yellow.
+The names of the most recently touched files are seen in white with older the names of older files fading out.
+
+One file, `main.c`, being inspected interactively with the mouse is highlighted in yellow.
 
 http://gource.googlecode.com/svn/trunk/gource-screenshot-3.png
 
