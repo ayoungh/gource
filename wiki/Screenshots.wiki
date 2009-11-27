@@ -1,9 +1,42 @@
 #summary Screenshots of Gource.
 
-Viewing git.git (GIT SCM):
+===The Linux Kernel===
+
+A snapshot of a flurry of development on the [http://www.linux.org/ Linux] project.
+
+As Linux is a huge C language project, the files being worked on are predominately a mix of *.c* (shown in green) and *.h* header files (in red).
+
+The names of the most recently touched files seen in white and slowly fade out. One file, `main.c`, being inspected interactively with the mouse is highlighted in yellow.
+
+http://gource.googlecode.com/svn/trunk/gource-screenshot-3.png
+
+===Koha===
+
+Developers working on [http://koha.org/ Koha], an open source library management system project.
+
+The green an orange files at the top are a series of sub-directories containing a mixture of *.txt* (orange) and *.sql* (green) files.
+
+http://gource.googlecode.com/svn/trunk/gource-screenshot-4.png
+
+===Git SCM===
+
+The [http://git-scm.com/ Git SCM] Project, one of the main version control systems supported by Gource.
+
+Unlike many projects, most of the files of the Git project reside in several huge directories of hundreds of files, rather than being broken down into sub directories.
+
+Git has a similar mix of colours to Linux as it is also written in C. The large orange directory contains *.txt* files (orange).
 
 http://gource.googlecode.com/svn/trunk/gource-screenshot-1.png
 
-Viewing vlc.git (VLC Player):
+===VLC Player===
+
+[http://www.videolan.org/vlc/ VLC Media Player], a popular open source video player. In contrast to Git we can see the files are broken down into many directories.
 
 http://gource.googlecode.com/svn/trunk/gource-screenshot-2.png
+
+===Miscellaneous===
+
+An interesting looking layout of image directories in a site using the Durpal content management system:
+
+http://gource.googlecode.com/svn/trunk/gource-screenshot-5.png
+
