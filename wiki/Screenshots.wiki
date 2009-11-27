@@ -10,14 +10,6 @@ The names of the most recently touched files seen in white and slowly fade out. 
 
 http://gource.googlecode.com/svn/trunk/gource-screenshot-3.png
 
-===Koha===
-
-Developers working on [http://koha.org/ Koha], an open source library management system project.
-
-The green an orange files at the top are a series of sub-directories containing a mixture of *.txt* (orange) and *.sql* (green) files.
-
-http://gource.googlecode.com/svn/trunk/gource-screenshot-4.png
-
 ===Git SCM===
 
 The [http://git-scm.com/ Git SCM] Project, one of the main version control systems supported by Gource.
@@ -34,9 +26,16 @@ http://gource.googlecode.com/svn/trunk/gource-screenshot-1.png
 
 http://gource.googlecode.com/svn/trunk/gource-screenshot-2.png
 
+===Koha===
+
+Developers working on [http://koha.org/ Koha], an open source library management system project.
+
+The green an orange files at the top are a series of sub-directories containing a mixture of *.txt* (orange) and *.sql* (green) files.
+
+http://gource.googlecode.com/svn/trunk/gource-screenshot-4.png
+
 ===Miscellaneous===
 
 An interesting looking layout of image directories in a site using the Durpal content management system:
 
 http://gource.googlecode.com/svn/trunk/gource-screenshot-5.png
-
