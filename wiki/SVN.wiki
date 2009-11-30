@@ -2,7 +2,7 @@
 
 == svn-gource.py ==
 
-[http://bitshifter.net.nz/ Bitshifter] has contributed a python script [http://gource.googlecode.com/files/svn-gource.py svn-gource.py] that converts the xml output of the `svn log` command into a format that can be read by the gource custom log format option.
+[http://bitshifter.net.nz/ Bitshifter] has contributed a python script [http://gource.googlecode.com/files/svn-gource-1.0.tar.gz svn-gource.py] that converts the xml output of the `svn log` command into a format that can be read by the gource custom log format option.
 
 Synopsis:
 
@@ -14,6 +14,8 @@ gource --log-format custom my-project-gource.log
 }}}
 
 *Note*: The `--filter-dirs` option treats paths without extensions as directories and filters them out (files and directories are ambiguous in the SVN log output so this is a work around).
+
+This script requires Python version 2.5 or above.
 
 == Using Gource with SVN projects via git-svn ==
 
