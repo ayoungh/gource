@@ -11,6 +11,10 @@ gource --output-ppm-stream - | ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec pp
 
 You can also adjust the output frame rate with `--output-framerate`. Note you will need to adjust the frame rate used by the encoder (eg `ffmpeg -r`) as well.
 
+*Note for Windows users*: On Windows I'd strongly recommend [http://www.fraps.com Fraps].
+
+Works with any program that uses Opengl or Direct3D and is really really fast (you can capture Gource at 60fps with no slow down).
+
 == Videos ==
 
 A collage of different open source software projects displayed using Gource:
