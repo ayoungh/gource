@@ -21,7 +21,7 @@ Works with any program that uses Opengl or Direct3D and is really really fast (y
 If you still want to use the built in support:
 
 {{{
-gource --output-ppm-stream > ppm.out
+gource --output-ppm-stream ppm.out
 ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i ppm.out gource.h264.avi
 }}}
 
