@@ -1,6 +1,6 @@
 #summary Guide to using gource with Mercurial
 
-As of Gource *0.20*, Mercurial support is built in:
+As of Gource *0.21*, Mercurial support is built in:
 
 ==Synopsis==
 
