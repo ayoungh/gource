@@ -2,7 +2,7 @@
 
 ===Gource Bloom===
 
-A developer adds a new directory of files to the Aptitude project, highlighted by the new bloom effect (aka _Gourceian blur_) added in Gource *0.21*:
+A developer adds a new directory of files to the Aptitude project, highlighted by the new bloom effect (aka _Gourceian blur_) added in Gource *0.22*:
 
 http://gource.googlecode.com/svn/trunk/gource-bloom.png
 
