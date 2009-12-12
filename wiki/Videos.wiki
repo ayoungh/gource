@@ -29,9 +29,15 @@ Afterward you will want to delete the rather large file `ppm.out` containing the
 
 == Videos ==
 
+Video showing off the new Bloom effect:
+
+<wiki:video url="http://www.youtube.com/watch?v=NjUuAuBcoqs">
+
 A collage of different open source software projects displayed using Gource:
 
 <wiki:video url="http://www.youtube.com/watch?v=E5xPMW5fg48">
+
+Visualizing Website Traffic with Gource:
 
 <wiki:video url="http://www.youtube.com/watch?v=iuFfchhse8M">
 
