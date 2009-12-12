@@ -1,28 +1,17 @@
 #summary Guide to using gource with Mercurial
 
-== mercurial-gourcelog.py ==
+As of Gource *0.20*, Mercurial support is built in:
 
-*Update*: A fork of this script which fixes an issue with spaces in filenames is available here:
-http://bitbucket.org/JustinLove/stylish-mercurial-gource/
+==Synopsis==
 
-[http://code.google.com/u/mwu368/ mwu368] has contributed a python script  [http://gource.googlecode.com/files/mercurial-gource-1.0.tar.gz mercurial-gource.py] that can be used to show a Mercurial repository in gource using the 'custom' log format option.
-
-Usage:
+View the log of the Mercurial repository in the current path:
 
 {{{
- mercurial-gourcelog.py [OUTPUT_FILE]
+gource
 }}}
 
-Where `OUTPUT_FILE` is the output file for the custom log. If `OUTPUT_FILE` is not provided, output will go to stdout.
-
-Example usage with gource (assuming that gource is installed):
+View the log of a Mercurial project in the specified directory:
 
 {{{
-mercurial-gource.py project.log && gource project.log
-}}}
-
-Or piping directly into gource:
-
-{{{
-mercurial-gource.py | gource --log-format custom -
+gource my-project/
 }}}
