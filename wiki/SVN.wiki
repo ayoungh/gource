@@ -2,7 +2,7 @@
 
 == svn-gource.py ==
 
-[http://bitshifter.net.nz/ Bitshifter] has contributed a python script [http://gource.googlecode.com/files/svn-gource-1.1.tar.gz svn-gource.py] that converts the xml output of the `svn log` command into a format that can be read by the gource custom log format option.
+[http://bitshifter.net.nz/ Bitshifter] has contributed a python script [http://gource.googlecode.com/files/svn-gource-1.2.tar.gz svn-gource.py] that converts the xml output of the `svn log` command into a format that can be read by the gource custom log format option.
 
 Synopsis:
 
