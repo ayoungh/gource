@@ -44,6 +44,6 @@ http://gource.googlecode.com/svn/trunk/gource-screenshot-4.png
 
 ===Miscellaneous===
 
-An interesting looking layout of image directories in a site using the Durpal content management system:
+An interesting looking layout of image directories in a site using the Drupal content management system:
 
 http://gource.googlecode.com/svn/trunk/gource-screenshot-5.png
