@@ -27,6 +27,8 @@ ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i ppm.out -vcodec libx264 go
 
 Afterward you will want to delete the rather large file `ppm.out` containing the uncompressed video data.
 
+You can get `ffmpeg` for windows [http://ffmpeg.arrozcru.org/ here].
+
 == Videos ==
 
 Video showing off the new Bloom effect:
