@@ -1,21 +1,6 @@
 #summary Using Gource with SVN
 
-== svn-gource.py ==
-
-[http://bitshifter.net.nz/ Bitshifter] has contributed a python script [http://gource.googlecode.com/files/svn-gource-1.2.tar.gz svn-gource.py] that converts the xml output of the `svn log` command into a format that can be read by the gource custom log format option.
-
-Synopsis:
-
-{{{
-cd my-svn-project
-svn log --verbose --xml > my-project.log
-python svn-gource.py --filter-dirs my-project.log > my-project-gource.log
-gource --log-format custom my-project-gource.log
-}}}
-
-*Note*: The `--filter-dirs` option treats paths without extensions as directories and filters them out (files and directories are ambiguous in the SVN log output so this is a work around).
-
-This script requires Python version 2.5 or above.
+There are a couple ways to use Gource with an SVN repository. First is using *git-svn* (detailed below), the second, less robust way is to use *svn-gource.py*, a script that converts the SVN xml log to Gource's custom log format.
 
 == Using Gource with SVN projects via git-svn ==
 
@@ -37,3 +22,20 @@ You can pull new changes into the Git copy of your SVN repository at any time us
 {{{
 git svn rebase
 }}}
+
+== svn-gource.py ==
+
+[http://bitshifter.net.nz/ Bitshifter] has contributed a python script [http://gource.googlecode.com/files/svn-gource-1.2.tar.gz svn-gource.py] that converts the xml output of the `svn log` command into a format that can be read by the gource custom log format option.
+
+Synopsis:
+
+{{{
+cd my-svn-project
+svn log --verbose --xml > my-project.log
+python svn-gource.py --filter-dirs my-project.log > my-project-gource.log
+gource --log-format custom my-project-gource.log
+}}}
+
+*Note*: The `--filter-dirs` option treats paths without extensions as directories and filters them out (files and directories are ambiguous in the SVN log output so this is a work around).
+
+This script requires Python version 2.5 or above.
