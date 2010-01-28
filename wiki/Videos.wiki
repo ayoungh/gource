@@ -47,26 +47,26 @@ Visualizing Website Traffic with Gource:
 
 Various videos of projects created with Gource.
 
-=== Fotowall ===
+=== JBoss EJB 3 ===
 
-History of Fotowall development up to fall 2009:
+<wiki:video url="http://www.youtube.com/watch?v=w1q-vtcYYWE">
 
-<wiki:video url="http://www.youtube.com/watch?v=LzmvHaCNXjg"/>
+=== OpenLDAP Development History === 
 
-=== Git ===
+<wiki:video url="http://www.youtube.com/watch?v=4sClZGLZ6dY">
 
-Gource running on the Git project itself (courtesy of Sam Vilain):
+=== ArtBabble ===
 
-<wiki:video url="http://www.youtube.com/watch?v=GTMC3g2Xy8c"/>
+<wiki:video url="http://www.youtube.com/watch?v=KgCuU8DpNG8">
 
-=== Fiji === 
+=== PHProjekt 6 ===
 
-Development of Fiji (courtesy of Johannes Schindelin):
+<wiki:video url="http://www.youtube.com/watch?v=zUB3MTp1T0o">
 
-<wiki:video url="http://www.youtube.com/watch?v=ZDZvoJX3PDM"/>
+=== libvert ===
 
-=== MPlayer CE === 
+<wiki:video url="http://www.youtube.com/watch?v=sEN4gxmCOuw">
 
-MPlayer CE - an MPlayer fork:
+=== Rsdn@Home ===
 
-<wiki:video url="http://www.youtube.com/watch?v=4mL1WDfbu84"/>
+<wiki:video url="http://www.youtube.com/watch?v=9rPjyhBb8-4">
