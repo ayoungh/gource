@@ -1,5 +1,7 @@
 #summary An overview of the controls that affect the appearance of Gource
- 
+
+Not all Gource videos are create equal! Check out some of the options available to give your project a distinctive look.
+
 == Bloom ==
 
 Gource has some command line options to control the appearance of the 'light bloom' effect that appears around directories:
