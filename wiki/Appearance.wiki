@@ -1,0 +1,41 @@
+#summary An overview of the controls that affect the appearance of Gource
+ 
+== Bloom ==
+
+Gource has some command line options to control the appearance of the 'light bloom' effect that appears around directories:
+
+You can affect the radius of the bloom using `--bloom-multiplier`, and the intensity using `--bloom-intensity`.
+
+To get double the radius and double the normal intensity you would use:
+
+{{{
+gource --bloom-multiplier 2.0 --bloom-intensity 1.5
+}}}
+
+If you're sick of the bloom effect, you can turn it off with `--disable-bloom`.
+
+== Background Colour ==
+
+The background colour can be set with the --background option, giving a colour in hex (the same way you might specify a colour in HTML):
+
+{{{
+gource --background 555555
+}}}
+
+Will set the background colour to a darkish grey.
+
+== Camera Controls ==
+
+=== Camera Mode ===
+
+Gource has two camera modes - tracking the entire visible repository, or tracking users (all users, or a specific user when one is selected).
+
+A lot of videos I see of Gource use the default Camera setting, which is to track the entire visible repository. This is good for establishing shots, but I think tracking the users is generally more interesting.
+
+You can toggle this with the *V* key.
+
+Pressing *Tab* cycles though following the current visible users.
+
+=== Zoom ===
+
+You can change the maximum zoom distance with the *Mouse Wheel* and the *Up/Down Arrow Keys*.
