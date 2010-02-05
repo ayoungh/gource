@@ -16,7 +16,7 @@ If you're sick of the bloom effect, you can turn it off with `--disable-bloom`.
 
 == Background Colour ==
 
-The background colour can be set with the --background option followed by a colour in hex format (the same way you might specify a colour in HTML):
+The background colour can be set with the --background option followed by a colour in hex format (like in HTML):
 
 {{{
 gource --background 555555
