@@ -18,7 +18,7 @@ If you're sick of the bloom effect, you can turn it off with `--disable-bloom`.
 
 == Background Colour ==
 
-The background colour can be set with the --background option, giving a colour in hex (the same way you might specify a colour in HTML):
+The background colour can be set with the --background option followed by a colour in hex format (the same way you might specify a colour in HTML):
 
 {{{
 gource --background 555555
@@ -32,11 +32,9 @@ Will set the background colour to a darkish grey.
 
 Gource has two camera modes - tracking the entire visible repository, or tracking users (all users, or a specific user when one is selected).
 
-A lot of videos I see of Gource use the default Camera setting, which is to track the entire visible repository. This is good for establishing shots, but I think tracking the users is generally more interesting.
+A lot of Gource videos just use the default Camera setting, which is to track the entire visible repository. This is good for establishing shots, but I think tracking the active users is usually more interesting.
 
-You can toggle this with the *V* key.
-
-Pressing *Tab* cycles though following the current visible users.
+You can toggle the mode with the *V* key. *Tab* cycles though the current visible users.
 
 === Zoom ===
 
