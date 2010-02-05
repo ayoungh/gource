@@ -2,9 +2,7 @@
 
 == Bloom ==
 
-Gource has some command line options to control the appearance of the 'light bloom' effect that appears around directories:
-
-You can affect the radius of the bloom using `--bloom-multiplier`, and the intensity using `--bloom-intensity`.
+Gource has some command line options to control the appearance of the 'light bloom' effect that appears around directories. You can affect the radius of the bloom using `--bloom-multiplier`, and the intensity using `--bloom-intensity`.
 
 To get double the radius and double the normal intensity you would use:
 
