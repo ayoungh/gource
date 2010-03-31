@@ -21,7 +21,7 @@ On Windows I'd strongly recommend [http://www.fraps.com Fraps]. Fraps works with
 If you still want to use the built in support:
 
 {{{
-gource --stop-at-end --output-ppm-stream ppm.out
+gource --disable-progress --stop-at-end --output-ppm-stream ppm.out
 ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i ppm.out -vcodec libx264 gource.x264.avi
 }}}
 
