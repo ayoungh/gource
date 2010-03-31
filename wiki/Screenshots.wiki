@@ -1,10 +1,10 @@
 #summary Screenshots of Gource.
 
-===Gource Bloom===
+===Papervision3D===
 
-A developer adds a new directory of files to the Aptitude project, highlighted by the new bloom effect (aka _Gourceian blur_) added in Gource *0.22*:
+[http://blog.papervision3d.org/ Papervision3D], a popular 3D library for Flash.
 
-http://gource.googlecode.com/svn/trunk/gource-bloom.png
+http://gource.googlecode.com/svn/trunk/gource-papervision.jpg
 
 ===The Linux Kernel===
 
@@ -16,7 +16,7 @@ The names of the most recently touched files are seen in white with older the na
 
 One file, `main.c`, being inspected interactively with the mouse is highlighted in yellow.
 
-http://gource.googlecode.com/svn/trunk/gource-screenshot-3.png
+http://gource.googlecode.com/svn/trunk/gource-linux.jpg
 
 ===Git SCM===
 
@@ -26,24 +26,10 @@ Unlike many projects, most of the files of the Git project reside in several hug
 
 Git has a similar mix of colours to Linux as it is also written in C. The large orange directory contains *.txt* files (orange).
 
-http://gource.googlecode.com/svn/trunk/gource-screenshot-1.png
+http://gource.googlecode.com/svn/trunk/gource-git.jpg
 
-===VLC Player===
+===Blender===
 
-[http://www.videolan.org/vlc/ VLC Media Player], a popular open source video player. In contrast to Git we can see the files are broken down into many directories.
+[http://www.blender.org/ Blender], a very popular free 3D graphics modeling and animation tool.
 
-http://gource.googlecode.com/svn/trunk/gource-screenshot-2.png
-
-===Koha===
-
-Developers working on [http://koha.org/ Koha], an open source library management system project.
-
-The green an orange files at the top are a series of sub-directories containing a mixture of *.txt* (orange) and *.sql* (green) files.
-
-http://gource.googlecode.com/svn/trunk/gource-screenshot-4.png
-
-===Miscellaneous===
-
-An interesting looking layout of image directories in a site using the Drupal content management system:
-
-http://gource.googlecode.com/svn/trunk/gource-screenshot-5.png
+http://gource.googlecode.com/svn/trunk/gource-blender.jpg
