@@ -1,20 +1,10 @@
 #summary Screenshots of Gource.
 
-===Papervision3D===
-
-[http://blog.papervision3d.org/ Papervision3D], a popular 3D library for Flash.
-
-http://gource.googlecode.com/svn/trunk/gource-papervision.jpg
-
 ===The Linux Kernel===
 
 A snapshot of a flurry of development on the [http://www.linux.org/ Linux] project.
 
 As Linux is a huge C language project, the files being worked on are predominately a mix of *.c* (shown in green) and *.h* header files (in red).
-
-The names of the most recently touched files are seen in white with older the names of older files fading out.
-
-One file, `main.c`, being inspected interactively with the mouse is highlighted in yellow.
 
 http://gource.googlecode.com/svn/trunk/gource-linux.jpg
 
@@ -27,6 +17,12 @@ Unlike many projects, most of the files of the Git project reside in several hug
 Git has a similar mix of colours to Linux as it is also written in C. The large orange directory contains *.txt* files (orange).
 
 http://gource.googlecode.com/svn/trunk/gource-git.jpg
+
+===Papervision3D===
+
+[http://blog.papervision3d.org/ Papervision3D], a popular 3D library for Flash.
+
+http://gource.googlecode.com/svn/trunk/gource-papervision.jpg
 
 ===Blender===
 
