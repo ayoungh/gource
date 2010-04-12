@@ -20,7 +20,7 @@ On Windows I'd strongly recommend [http://www.fraps.com Fraps]. Fraps works with
 
 If you still want to use the built in video output support:
 
-Since there is no option to pipe the stream directly into ffmpeg on Windows, an intermediate file containing the uncompressed video needs to be written to disk instead, which is very slow (afterward you will probably want to delete this).
+Since there is no option to pipe the stream directly into ffmpeg on Windows, an intermediate file containing the uncompressed video needs to be written to disk instead, which is very slow (afterward you will probably want to delete it).
 
 {{{
 gource --disable-progress --stop-at-end --output-ppm-stream ppm.out
