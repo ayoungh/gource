@@ -18,14 +18,14 @@ You can also adjust the output frame rate with `--output-framerate`. Note you wi
 
 On Windows I'd strongly recommend [http://www.fraps.com Fraps]. Fraps works with any program that uses OpenGL or Direct3D and is really really fast (you can capture Gource at 60fps with no slow down).
 
-If you still want to use the built in support:
+If you still want to use the built in video output support:
+
+Since there is no option to pipe the stream directly into ffmpeg on Windows, an intermediate file containing the uncompressed video needs to be written to disk instead, which is very slow (afterward you will probably want to delete this).
 
 {{{
 gource --disable-progress --stop-at-end --output-ppm-stream ppm.out
 ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i ppm.out -vcodec libx264 gource.x264.avi
 }}}
-
-Afterward you will want to delete the rather large file `ppm.out` containing the uncompressed video data.
 
 You can get `ffmpeg` for windows [http://ffmpeg.arrozcru.org/ here].
 
