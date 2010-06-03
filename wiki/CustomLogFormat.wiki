@@ -1,0 +1,41 @@
+#summary using Gource to visualize other data sources via the custom log format option.
+
+== Custom Log Format ==
+
+=== Overview ===
+
+If you want to use Gource to visualize something other than the supported log formats, there is a pipe ('|') delimited custom log format option:
+
+  * *timestamp* - A unix timestamp of when the update occured.
+  * *username*  - The name of the user who made the update.
+  * *type*      - initial for the update type - (*A*)dded, (*M*)odified or (*D*)eleted.
+  * *file*      - Path of the file updated.
+  * *colour*    - A colour for the file in hex (FFFFFF) format. _Optional_.
+
+This format is detected by Gource, so you don't need any extra command line options to use it:
+
+{{{
+gource custom.log
+}}}
+
+=== Custom Log Example ===
+
+The user _andrew_ adding the file _src/main.cpp_:
+
+{{{
+1275543595|andrew|A|src/main.cpp
+}}}
+
+Adding the same file coloured red (FF0000):
+
+{{{
+1275543595|andrew|A|src/main.cpp|FF0000
+}}}
+
+== Custom Log Scripts ==
+
+=== DokuWiki ===
+
+_WolverineX02_ has created a script to display [http://www.dokuwiki.org DokuWiki] change history with Gource which you can get here:
+
+http://www.dokuwiki.org/tips:gource_analysis
