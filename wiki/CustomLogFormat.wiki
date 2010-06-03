@@ -6,7 +6,7 @@
 
 If you want to use Gource to visualize something other than the supported log formats, there is a pipe ('|') delimited custom log format option:
 
-  * *timestamp* - A unix timestamp of when the update occured.
+  * *timestamp* - A [http://en.wikipedia.org/wiki/Unix_time unix timestamp] of when the update occured.
   * *username*  - The name of the user who made the update.
   * *type*      - initial for the update type - (*A*)dded, (*M*)odified or (*D*)eleted.
   * *file*      - Path of the file updated.
