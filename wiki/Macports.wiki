@@ -1,9 +1,0 @@
-#summary Installing Gource on Leopard/Snow Leopard
-
-== Installing Gource from Macports ==
-
-Gource is now in [http://www.macports.org/ Macports]. [http://www.macports.org/install.php Once you have installed Macports] you can install gource with this command:
-
-{{{
-sudo port install gource
-}}}
