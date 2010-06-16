@@ -10,9 +10,9 @@ You can create a video of Gource using the --output-ppm-stream option. This crea
 gource --disable-progress --stop-at-end --output-ppm-stream - | ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 gource.mp4
 }}}
 
-You can also adjust the output frame rate with `--output-framerate`. Note you will need to adjust the frame rate used by the encoder (eg `ffmpeg -r`) as well.
+*Note*: You may need to add '-vpre default' or '-vpre libx264-default' to the ffmpeg command. The exact arguments to ffmpeg may vary depending on the version you have. There is a good guide to using x264 with ffmpeg [http://rob.opendot.cl/index.php/useful-stuff/ffmpeg-x264-encoding-guide/ here].
 
-*Note*: You may need to add '-vpre default' to the ffmpeg command. The exact arguments to ffmpeg may vary depending on the version you have. There is a good guide to using x264 with ffmpeg [http://rob.opendot.cl/index.php/useful-stuff/ffmpeg-x264-encoding-guide/ here].
+You can also adjust the output frame rate with `--output-framerate`. Note you will need to adjust the frame rate used by the encoder (eg `ffmpeg -r`) as well.
 
 === Windows Users ===
 
