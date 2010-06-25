@@ -10,7 +10,7 @@ You can create a video of Gource using the --output-ppm-stream option. This crea
 gource --disable-progress --stop-at-end --output-ppm-stream - | ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 gource.mp4
 }}}
 
-*Note*: You may need to add '-vpre default' or '-vpre libx264-default' to the ffmpeg command. The exact arguments to ffmpeg may vary depending on the version you have. There is a good guide to using x264 with ffmpeg [http://rob.opendot.cl/index.php/useful-stuff/ffmpeg-x264-encoding-guide/ here].
+*Note*: You may need to add one of '`-vpre default`', '`-vpre libx264-default`' or '`-fpre /path/to/libx264-default.ffpreset`' to get ffmpeg to work. The arguments for ffmpeg may vary depending on the version you have. There is a good guide to using x264 with ffmpeg [http://rob.opendot.cl/index.php/useful-stuff/ffmpeg-x264-encoding-guide/ here].
 
 You can also adjust the output frame rate with `--output-framerate`. Note you will need to adjust the frame rate used by the encoder (eg `ffmpeg -r`) as well.
 
@@ -20,14 +20,14 @@ On Windows I'd strongly recommend [http://www.fraps.com Fraps]. Fraps works with
 
 If you still want to use the built in video output support:
 
-Since there is no option to pipe the stream directly into ffmpeg on Windows, an intermediate file containing the uncompressed video needs to be written to disk instead, which is very slow (afterward you will probably want to delete it).
-
 {{{
 gource --disable-progress --stop-at-end --output-ppm-stream ppm.out
-ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i ppm.out -vcodec libx264 gource.x264.avi
+C:\ffmpeg\bin\ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i ppm.out -vcodec libx264 -fpre 'C:\ffmpeg\presets\libx264-default.ffpreset' gource.x264.avi
 }}}
 
-You can get `ffmpeg` for windows [http://ffmpeg.arrozcru.org/ here].
+*Note*: You may need to adjust the command line to point to where you installed ffmpeg, including the `-fpre` path to libx264-default.ffpreset.
+ 
+You can get `ffmpeg` for windows [http://ffmpeg.arrozcru.org/ here]. Guide to [http://rob.opendot.cl/index.php/useful-stuff/ffmpeg-x264-encoding-guide/ ffmpeg x264 encoding].
 
 == Videos ==
 
