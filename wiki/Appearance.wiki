@@ -26,12 +26,18 @@ Will set the background colour to a darkish grey.
 
 === Camera Mode ===
 
-Gource has two camera modes (which can be changed with *--camera-mode MODE*):
+Gource has two camera modes:
 
  * *overview* - keeps the entire repository in view.
  * *track* - follows the current active users or the selected user.
 
-You can toggle the mode in Gource with the *V* key. *Tab* cycles though the current visible users.
+The default mode is 'overview'. To set the camera mode to 'track':
+
+{{{
+gource --camera-mode track
+}}}
+
+You can also toggle the mode in Gource with the *V* key. *Tab* cycles though the current visible users.
 
 === Panning ===
 
