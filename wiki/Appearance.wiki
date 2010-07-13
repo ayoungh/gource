@@ -1,5 +1,7 @@
 #summary An overview of the controls that affect the appearance of Gource
 
+== Customization ==
+
 == Bloom ==
 
 Gource has some command line options to control the appearance of the 'light bloom' effect that appears around directories. You can affect the radius of the bloom using `--bloom-multiplier`, and the intensity using `--bloom-intensity`.
@@ -12,7 +14,7 @@ gource --bloom-multiplier 2.0 --bloom-intensity 1.5
 
 If you're sick of the bloom effect, you can turn it off with `--disable-bloom`.
 
-== Background Colour ==
+=== Background ===
 
 The background colour can be set with the --background option followed by a colour in hex format (like in HTML):
 
@@ -20,7 +22,49 @@ The background colour can be set with the --background option followed by a colo
 gource --background 555555
 }}}
 
-Will set the background colour to a darkish grey.
+This will set the background colour to a darkish grey
+
+You can set the alpha channel to be transparent with --transparent. This is useful if you want to take screenshots (*F12*) and manipulate them in image editing software. Note ppm output does not have an alpha channel so will not be affected.
+
+To set a background image:
+
+{{{
+gource --background-image background.png
+}}}
+
+=== Date Format ===
+
+Change the strftime format string Gource uses to display the current time (See strftime manual for [http://opengroup.org/onlinepubs/007908799/xsh/strftime.html valid format strings]).
+
+{{{
+gource --date-format "%D"
+}}}
+
+=== Fonts ===
+
+You can change the default font size and colour of the timer and titles with:
+
+{{{
+gource --font-size 18 --font-colour FFFF00
+}}}
+
+=== Logo ===
+
+Set a logo to appear in the foreground:
+
+{{{
+gource --logo logo.png
+}}}
+
+The logo position can be changed with --logo-offset XyY.
+
+=== Title ===
+
+Set a title to appear in the bottom left corner of the screen:
+
+{{{
+gource --title "My Project"
+}}}
 
 == Camera Controls ==
 
@@ -43,12 +87,13 @@ You can also toggle the mode in Gource with the *V* key. *Tab* cycles though the
 
 Dragging the left mouse button on the background pans the camera. This will also disable automatic camera movement until you toggle the camera mode.
 
-=== Zoom ===
-
-You can change the maximum zoom distance with the *Mouse Wheel* and the *Up/Down Arrow Keys*.
 
 === Rotation ===
 
 By default, as of 0.27, Gource will automatically rotate the view to make best use of the available screen space.
 
 You can manually rotate the view by dragging right mouse button on the background. This will also disable automatic camera rotation until you toggle the camera mode.
+
+=== Zoom ===
+
+You can change the maximum zoom distance with the *Mouse Wheel* and the *Up/Down Arrow Keys*.
