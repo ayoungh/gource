@@ -1,5 +1,7 @@
 #summary An overview of the controls that affect the appearance of Gource
 
+*Note*: some options may require the latest version of Gource.
+
 == Customization ==
 
 == Bloom ==
