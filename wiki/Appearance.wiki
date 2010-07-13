@@ -26,12 +26,23 @@ Will set the background colour to a darkish grey.
 
 === Camera Mode ===
 
-Gource has two camera modes - tracking the entire visible repository, or tracking users (all users, or a specific user when one is selected).
+Gource has two camera modes (which can be changed with *--camera-mode MODE*):
 
-A lot of Gource videos just use the default Camera setting, which is to track the entire visible repository. This is good for establishing shots, but I think tracking the active users is usually more interesting.
+ * *overview* - keeps the entire repository in view.
+ * *track* - follows the current active users or the selected user.
 
-You can toggle the mode with the *V* key. *Tab* cycles though the current visible users.
+You can toggle the mode in Gource with the *V* key. *Tab* cycles though the current visible users.
+
+=== Panning ===
+
+Dragging the left mouse button on the background pans the camera. This will also disable automatic camera movement until you toggle the camera mode.
 
 === Zoom ===
 
 You can change the maximum zoom distance with the *Mouse Wheel* and the *Up/Down Arrow Keys*.
+
+=== Rotation ===
+
+By default, as of 0.27, Gource will automatically rotate the view to make best use of the available screen space.
+
+You can manually rotate the view by dragging right mouse button on the background. This will also disable automatic camera rotation until you toggle the camera mode.
