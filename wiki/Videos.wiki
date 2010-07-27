@@ -1,5 +1,8 @@
 #summary Creating videos with Gource.
 
+Also check out the [http://code.google.com/p/gource/wiki/Appearance Appearance] section of the wiki for steps to customize the look of your videos.
+
+
 == Recording Videos ==
 
 === Linux / Mac Users ===
