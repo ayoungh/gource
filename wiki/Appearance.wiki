@@ -27,7 +27,7 @@ Dragging the left mouse button on the background pans the camera. This will also
 
 === Rotation ===
 
-By default, as of 0.27, Gource will automatically rotate the view to make best use of the available screen space. If this is not to your liking, you can turn this off with --disable-auto-rotate.
+As of 0.27, Gource will automatically rotate the view to make best use of the available screen space. If this is not to your liking, you can turn this off with --disable-auto-rotate.
 
 You can manually rotate the view by dragging right mouse button on the background. This will also disable automatic camera rotation until you toggle the camera mode.
 
