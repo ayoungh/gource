@@ -46,6 +46,12 @@ A collage of different open source software projects displayed using Gource:
 
 Various videos of projects created with Gource.
 
+=== 25 Years of AmigaOS ===
+
+[http://www.hyperion-entertainment.biz/ Hyperion Entertainment] made this video celebrating [http://www.hyperion-entertainment.biz/index.php?option=com_content&view=article&id=141:twenty-five&catid=36:amigaos-4x&Itemid=18 25 years of AmigaOS development]:
+
+<wiki:video url="http://www.youtube.com/watch?v=5NJ1TlQwLTs">
+
 === RGN Vietnam Mod === 
 
 <wiki:video url="http://www.youtube.com/watch?v=fQjRf8qepoE">
