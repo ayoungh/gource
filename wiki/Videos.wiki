@@ -5,7 +5,7 @@ Also check out the [http://code.google.com/p/gource/wiki/Appearance Appearance] 
 
 == Recording Videos ==
 
-=== Linux / Mac Users ===
+=== Linux / Mac ===
 
 You can create a video of Gource using the --output-ppm-stream option. This creates an uncompressed sequence of screenshots in PPM format which can then be processed by another program (such as `ffmpeg`) to produce a video. The below command line will create a video at 60fps in x264 format (assumes you have ffmpeg with x264 support):
 
@@ -17,7 +17,7 @@ gource --disable-progress --stop-at-end --output-ppm-stream - | ffmpeg -y -b 300
 
 You can also adjust the output frame rate with `--output-framerate`. Note you will need to adjust the frame rate used by the encoder (eg `ffmpeg -r`) as well.
 
-=== Windows Users ===
+=== Windows ===
 
 On Windows I'd strongly recommend [http://www.fraps.com Fraps]. Fraps works with any program that uses OpenGL or Direct3D and is really really fast (you can capture Gource at 60fps with no slow down).
 
@@ -31,6 +31,10 @@ C:\ffmpeg\bin\ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i ppm.out -vco
 *Note*: You may need to adjust the command line to point to where you installed ffmpeg, including the `-fpre` path to libx264-default.ffpreset.
  
 You can get `ffmpeg` for windows [http://ffmpeg.arrozcru.org/ here]. Guide to [http://rob.opendot.cl/index.php/useful-stuff/ffmpeg-x264-encoding-guide/ ffmpeg x264 encoding].
+
+=== General Notes ===
+
+Make sure you keep the window of Gource entirely visible while recording. If you minimize or partially obscure the window, your video card may decide not draw the output consistently and you will get artifacts in your recording.
 
 == Videos ==
 
