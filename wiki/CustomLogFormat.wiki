@@ -32,6 +32,20 @@ Adding the same file coloured red (FF0000):
 1275543595|andrew|A|src/main.cpp|FF0000
 }}}
 
+=== Streaming Custom Log Format via STDIN ===
+
+If you want to stream live data into Gource, a good way to do this is to make a script that feeds custom log format entries into Gource via STDIN:
+
+{{{
+my-custom-log-script.pl | gource --realtime --log-format custom -
+}}}
+
+Assuming 'my-custom-log-script.pl' periodically prints custom log format lines to STDOUT. The '-' at the end of the Gource command tells it to expect data on STDIN.
+
+--realtime tells Gource to increment the clock in real time.
+
+*NOTE:* This examples assumes Gource 0.27 or later (STDIN support was buggy in earlier versions).
+
 == Custom Log Scripts ==
 
 === DokuWiki ===
