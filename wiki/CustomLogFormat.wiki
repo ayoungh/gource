@@ -53,3 +53,11 @@ Assuming 'my-custom-log-script.pl' periodically prints custom log format lines t
 _WolverineX02_ has created a script to display [http://www.dokuwiki.org DokuWiki] change history with Gource which you can get here:
 
 http://www.dokuwiki.org/tips:gource_analysis
+
+=== Perforce ===
+
+Olaf contributes this one shell one liner to convert Perforce logs to Gource custom log format:
+
+{{{
+p4 changes ...|awk '{print $2}'|p4 -x - describe -s|awk '(/^Change / || /^... /) {if ($1 == "Change") {u=substr($4,1,index($4,"@")-1); t = $(NF-1) " " $NF; gsub("/"," ",t); gsub(":"," ",t);time=mktime(t);} else {if ($NF=="add") {c="A";} else if ($NF=="delete") {c="D";} else {c="M";};f=substr($2,3,index($2,"#")-3);print time "|" u "|" c "|" f;}}'|sort -n
+}}}
