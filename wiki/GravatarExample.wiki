@@ -23,7 +23,7 @@ use Digest::MD5 qw(md5_hex);
 my $size       = 90;
 my $output_dir = '.git/avatar';
 
-system("no .git/ directory found in current path\n") unless -d '.git';
+die("no .git/ directory found in current path\n") unless -d '.git';
 
 mkdir($output_dir) unless -d $output_dir;
 
