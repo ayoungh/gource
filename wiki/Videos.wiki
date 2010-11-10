@@ -19,9 +19,9 @@ You can also adjust the output frame rate with `--output-framerate`. Note you wi
 
 === Windows ===
 
-On Windows I'd strongly recommend [http://www.fraps.com Fraps]. Fraps works with any program that uses OpenGL or Direct3D and is really really fast (you can capture Gource at 60fps with no slow down).
+On Windows I'd recommend [http://www.fraps.com Fraps]. Fraps works with any program that uses OpenGL or Direct3D and is really fast (you can capture Gource at 60fps with no slow down in many cases).
 
-If you still want to use the built in video output support:
+If you want to use the built in video output support:
 
 {{{
 gource --disable-progress --stop-at-end --output-ppm-stream ppm.out
