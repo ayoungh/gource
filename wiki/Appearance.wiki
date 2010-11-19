@@ -35,7 +35,23 @@ You can manually rotate the view by dragging right mouse button on the backgroun
 
 You can change the maximum zoom distance with the *Mouse Wheel* and the *Up/Down Arrow Keys*.
 
-== Customization ==
+== Tree ==
+
+=== File Idle Time ===
+
+By default, Gource 'expires' files which haven't been touched by a user in the 60 seconds. You can change the amount of time files remain without changing with:
+
+{{{
+--file-idle-time SECONDS
+}}}
+
+To turn expiring files off:
+
+{{{
+--file-idle-time 0
+}}}
+
+== Effects ==
 
 == Bloom ==
 
