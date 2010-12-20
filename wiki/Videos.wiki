@@ -78,6 +78,10 @@ Various videos of projects created with Gource.
 
 <wiki:video url="http://www.youtube.com/watch?v=bNTN0IbPas0">
 
+=== CHIP Online (chip.de) ===
+
+<wiki:video url="http://www.youtube.com/watch?v=fV5kKUYchpk">
+
 === 25 Years of AmigaOS ===
 
 [http://www.hyperion-entertainment.biz/ Hyperion Entertainment] made this video celebrating [http://www.hyperion-entertainment.biz/index.php?option=com_content&view=article&id=141:twenty-five&catid=36:amigaos-4x&Itemid=18 25 years of AmigaOS development]:
