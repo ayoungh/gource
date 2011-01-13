@@ -1,6 +1,25 @@
 #summary Using Gource with SVN
 
-There are a couple ways to use Gource with an SVN repository. First is using *git-svn* (detailed below), the second, currently less robust way is to use *svn-gource.py*, a script that converts the SVN xml log to Gource's custom log format.
+===Built-in Support===
+
+As of *0.29*, Gource includes SVN parsing and log generation built-in:
+
+{{{
+cd my-svn-project
+gource
+}}}
+
+You can also save a copy of the log first and use that, to avoid the SVN server having to generate it each time:
+
+{{{
+cd my-svn-project
+svn log -r 1:HEAD --xml --verbose --quiet > my-project-log.xml
+gource my-project-log.xml
+}}}
+
+===Previous Versions===
+
+There are a couple ways to use older versions of Gource with an SVN repository. First is using *git-svn* (detailed below), the second, currently less robust way is to use *svn-gource.py*, a script that converts the SVN xml log to Gource's custom log format.
 
 == Using Gource with SVN projects via git-svn ==
 
