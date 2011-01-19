@@ -34,7 +34,7 @@ If you don't want to use an external capture program, here is an example command
 
 {{{
 gource -o ppm.out
-C:\ffmpeg\bin\ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i ppm.out -vcodec libx264 -fpre 'C:\ffmpeg\presets\libx264-slow.ffpreset' -threads 0 gource.x264.avi
+C:\\ffmpeg\\bin\\ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i ppm.out -vcodec libx264 -fpre "C:\\ffmpeg\\presets\\libx264-slow.ffpreset" -threads 0 gource.x264.avi
 }}}
 
 *Note*: You may need to adjust the command line to point to where you installed ffmpeg, including the `-fpre` path to libx264-slow.ffpreset.
