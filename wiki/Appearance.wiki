@@ -42,7 +42,27 @@ You can manually rotate the view by dragging right mouse button on the backgroun
 
 You can change the maximum zoom distance with the *Mouse Wheel* and the *Up/Down Arrow Keys*.
 
-== Tree ==
+== Tree Behavior ==
+
+=== Max Files ===
+
+Gource by default limits the number of files it will draw to 1000, which is a bit low for a lot of projects. You can set this to something else, or use '0' to turn this feature off:
+
+{{{
+gource --max-files 0
+}}}
+
+=== File Lag ===
+
+Gource doesn't actually apply updates immediately as they come up in the log, instead the user will move towards the area of the new files before adding them. This is easier to follow but it also means if you are using a small value for 'seconds-per-day', it can get quite far behind.
+
+You can change the time limit for files to be added in seconds (default 5) with `--max-file-lag SECONDS`:
+
+{{{
+gource --max-file-lag 0.1
+}}}
+
+Above, files must appear within 0.1 seconds (100ms).
 
 === File Idle Time ===
 
