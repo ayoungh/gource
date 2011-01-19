@@ -75,7 +75,7 @@ Seconds per day controls the amount of time Gource will take to display each day
 gource --seconds-per-day 1
 }}}
 
-There is also an option called *`--realtime`* which simply sets seconds-per-day to 60*60*24.
+As a convenience, the option *`--realtime`* sets seconds-per-day to 60*60*24.
 
 === Auto Skip Seconds ===
 
