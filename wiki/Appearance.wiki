@@ -52,17 +52,6 @@ Gource by default limits the number of files it will draw to 1000, which is a bi
 gource --max-files 0
 }}}
 
-=== File Lag ===
-
-Gource doesn't actually apply updates immediately as they come up in the log, instead the user will move towards the area of the new files before adding them. This is easier to follow but it also means if you are using a small value for 'seconds-per-day', it can get quite far behind.
-
-You can change the time limit for files to be added in seconds (default 5) with `--max-file-lag SECONDS`:
-
-{{{
-gource --max-file-lag 0.1
-}}}
-
-Above, files must appear within 0.1 seconds (100ms).
 
 === File Idle Time ===
 
@@ -77,6 +66,42 @@ To turn expiring files off:
 {{{
 --file-idle-time 0
 }}}
+
+=== Seconds Per Day ===
+
+Seconds per day controls the amount of time Gource will take to display each day in the log file (10 seconds by default).
+
+{{{
+gource --seconds-per-day 1
+}}}
+
+There is also an option called *`--realtime`* which simply sets seconds-per-day to 60*60*24.
+
+=== Auto Skip Seconds ===
+
+Some projects may have gaps in activity in the span of days or weeks. To avoid the boring bits, Gource has an option *`--auto-skip-seconds SECONDS`*.
+
+{{{
+gource --auto-skip-seconds 1
+}}}
+
+The sister command `--disable-auto-skip` may be used to turn this feature off:
+
+{{{
+gource --disable-auto-skip
+}}}
+
+=== File Lag ===
+
+Gource doesn't actually apply updates immediately as they come up in the log, instead the user will move towards the area of the new files before adding them. This is easier to follow but it also means if you are using a small value for 'seconds-per-day', it can get quite far behind.
+
+You can change the time limit for files to be added in seconds (default 5) with `--max-file-lag SECONDS`:
+
+{{{
+gource --max-file-lag 0.1
+}}}
+
+Above, files must appear within 0.1 seconds (100ms).
 
 == Effects ==
 
