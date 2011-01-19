@@ -14,6 +14,8 @@ You can also adjust the output frame rate with -r (aka --output-framerate). Note
 
 Make sure you keep the window of Gource entirely visible while recording. If you minimize or partially obscure the window, your video card may decide not draw the output consistently and you will get artifacts in your recording. You may like to use the `-f` option to run in full-screen mode to stop this happening.
 
+You may want to record your video in widescreen as that is the trend for online video now days. You can record in 720p by adding `-1280x720` to the command line.
+
 === Linux / Mac ===
 
 The below command line will create a video at 60fps in x264 format (assumes you have recent version of ffmpeg with x264 support):
