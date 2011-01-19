@@ -2,6 +2,13 @@
 
 *Note*: some options may require the latest version of Gource.
 
+== View Controls ==
+
+You can set the screen resolution with `-WIDTHxHEIGHT` and switch to full-screen mode with `-f`. To set the view to full-screen 720p:
+
+{{{
+gource -f -1280x720
+}}}
 
 == Camera Controls ==
 
@@ -53,7 +60,7 @@ To turn expiring files off:
 
 == Effects ==
 
-== Bloom ==
+=== Bloom ===
 
 Gource has some command line options to control the appearance of the 'light bloom' effect that appears around directories. You can affect the radius of the bloom using `--bloom-multiplier`, and the intensity using `--bloom-intensity`.
 
@@ -64,6 +71,16 @@ gource --bloom-multiplier 2.0 --bloom-intensity 1.5
 }}}
 
 If you're sick of the bloom effect, you can turn it off with `--disable-bloom`.
+
+=== Elasticity ===
+
+Elasticity is a fun if somewhat pointless effect that controls how 'rubbery' directory branches behave when they have force applied to them:
+
+{{{
+gource -e 0.5
+}}}
+
+== Misc ==
 
 === Background ===
 
