@@ -121,7 +121,7 @@ If you're sick of the bloom effect, you can turn it off with `--disable-bloom`.
 
 === Elasticity ===
 
-Elasticity is a fun if somewhat pointless effect that controls how 'rubbery' directory branches behave when they have force applied to them:
+Elasticity is a fun if somewhat pointless effect that controls how 'rubbery' directory branches behave when they have a force applied to them:
 
 {{{
 gource -e 0.5
