@@ -4,7 +4,7 @@
 
 == View Controls ==
 
-You can set the screen resolution with `-WIDTHxHEIGHT` and switch to full-screen mode with `-f`. To set the view to full-screen 720p:
+You can set the screen resolution with *`-WIDTHxHEIGHT`* and switch to full-screen mode with *`-f`*. To set the view to full-screen 720p:
 
 {{{
 gource -f -1280x720
