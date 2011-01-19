@@ -39,7 +39,7 @@ C:\\ffmpeg\\bin\\ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i ppm.out -
 
 *Note*: You may need to adjust the command line to point to where you installed ffmpeg, including the `-fpre` path to libx264-slow.ffpreset.
  
-You can get `ffmpeg` build for Windows [http://ffmpeg.arrozcru.org/ here]. Guide to [http://rob.opendot.cl/index.php/useful-stuff/ffmpeg-x264-encoding-guide/ ffmpeg x264 encoding].
+You can get an `ffmpeg` build for Windows from [http://ffmpeg.arrozcru.org/ here]. Guide to [http://rob.opendot.cl/index.php/useful-stuff/ffmpeg-x264-encoding-guide/ ffmpeg x264 encoding].
 
 == Videos ==
 
