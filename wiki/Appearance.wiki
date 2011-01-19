@@ -79,7 +79,9 @@ There is also an option called *`--realtime`* which simply sets seconds-per-day 
 
 === Auto Skip Seconds ===
 
-Some projects may have gaps in activity in the span of days or weeks. To avoid the boring bits, Gource has an option *`--auto-skip-seconds SECONDS`*.
+Some projects may have gaps in activity in the span of days or weeks. To avoid the boring bits, Gource will advance to the next entry (after 3 seconds by default) if nothing is happening.
+
+To change the auto skip seconds value:
 
 {{{
 gource --auto-skip-seconds 1
