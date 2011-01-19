@@ -181,7 +181,7 @@ Set a title to appear in the bottom left corner of the screen:
 gource --title "My Project"
 }}}
 
-== Hide Elements ==
+=== Hiding Display Elements ===
 
 Sometimes it's hard to see the forest through the trees. To cull the brush:
 
