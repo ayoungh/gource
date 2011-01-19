@@ -2,6 +2,7 @@
 
 *Note*: some options may require the latest version of Gource.
 
+
 == View Controls ==
 
 You can set the screen resolution with *`-WIDTHxHEIGHT`* and switch to full-screen mode with *`-f`*. To set the view to full-screen 720p:
@@ -9,6 +10,7 @@ You can set the screen resolution with *`-WIDTHxHEIGHT`* and switch to full-scre
 {{{
 gource -f -1280x720
 }}}
+
 
 == Camera Controls ==
 
@@ -41,6 +43,7 @@ You can manually rotate the view by dragging right mouse button on the backgroun
 === Zoom ===
 
 You can change the maximum zoom distance with the *Mouse Wheel* and the *Up/Down Arrow Keys*.
+
 
 == Tree Behavior ==
 
@@ -105,6 +108,7 @@ gource --max-file-lag 0.1
 
 Above, files must appear within 0.1 seconds (100ms).
 
+
 == Effects ==
 
 === Bloom ===
@@ -126,6 +130,7 @@ Elasticity is a fun if somewhat pointless effect that controls how 'rubbery' dir
 {{{
 gource -e 0.5
 }}}
+
 
 == Misc ==
 
