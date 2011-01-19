@@ -3,7 +3,7 @@
 *Note*: some options may require the latest version of Gource.
 
 
-== View Controls ==
+== Display ==
 
 You can set the screen resolution with *`-WIDTHxHEIGHT`* and switch to full-screen mode with *`-f`*. To set the view to full-screen 720p:
 
