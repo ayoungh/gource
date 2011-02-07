@@ -18,13 +18,15 @@ You may want to record your video in widescreen as that is the trend for online 
 
 === Linux / Mac ===
 
-The below command line will create a video at 60fps in x264 format (assumes you have recent version of ffmpeg with x264 support):
+The below command line will create a video at 60fps in x264 format assuming you have recent version of ffmpeg *with libx264 support*. Some distributions do not include libx264 support in ffmpeg because of patent concerns. Consult guides for your distribution if this is the case.
 
 {{{
 gource -o - | ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -vpre slow -threads 0 gource.mp4
 }}}
 
 *Note*: ffmpeg seems to be a constantly moving target, so you may find you need slightly different arguments with your version. You may need to change '`-vpre medium`' to '`-fpre /path/to/libx264-blah.ffpreset`', for instance. There is a good guide to using x264 with ffmpeg [http://rob.opendot.cl/index.php/useful-stuff/ffmpeg-x264-encoding-guide/ here].
+
+
 
 === Windows ===
 
