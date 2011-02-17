@@ -8,7 +8,7 @@ Command line options below should work with Gource 0.27 and later. If you have a
 
 === General ===
 
-You can create a video of Gource using the `-o` (aka `--output-ppm-stream`) option. This creates an uncompressed sequence of screenshots in PPM format which can then be processed a video encoder (such as `ffmpeg`) to produce a video.
+You can create a video of Gource using the `-o` (aka `--output-ppm-stream`) option. This creates an uncompressed sequence of screenshots in PPM format which can then be processed by a video encoder (such as `ffmpeg`) to produce a video.
 
 You can also adjust the output frame rate with `-r` (aka `--output-framerate`). Note you will need to adjust the frame rate used by the encoder (eg `ffmpeg -r`) to match, unless you are going for a speed-up timelapse or slow motion effect.
 
