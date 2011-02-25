@@ -33,7 +33,7 @@ gource -o - | ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i - -vcodec li
 A good alternative codec to x264 is [http://en.wikipedia.org/wiki/WebM WebM]. Below is a very basic command line example of using ffmpeg to produce a Gource WebM video:
 
 {{{
-./gource -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libvpx -b 10000K gource.webm
+gource -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libvpx -b 10000K gource.webm
 }}}
 
 === Windows ===
