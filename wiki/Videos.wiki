@@ -20,7 +20,7 @@ You may want to record your video in widescreen as that is the trend for online 
 
 ==FFmpeg using x264 codec==
 
-The below command line will create a video at 60fps in x264 format assuming you have recent version of ffmpeg *with libx264 support*. Some distributions like Ubuntu do not enable libx264 support by default in ffmpeg (See this thread for your options  to enable it on [http://ubuntuforums.org/showthread.php?t=1117283 Ubuntu]). Consult guides for your distribution if this is the case.
+The below command line will create a video at 60fps in x264 format assuming you have recent version of ffmpeg *with libx264 support*. Some distributions like Ubuntu do not enable libx264 support by default in ffmpeg (See [http://ubuntuforums.org/showthread.php?t=1117283 this thread] for various ways to [http://ubuntuforums.org/showthread.php?t=1117283 enable libx264 support on Ubuntu]). Consult guides for your distribution if this is the case.
 
 {{{
 gource -o - | ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -vpre slow -threads 0 gource.mp4
