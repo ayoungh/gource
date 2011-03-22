@@ -1,6 +1,6 @@
 #summary Screenshots of Gource.
 
-*Page Layout Fail Note:* `code.google.com` recently changed their page layouts to a fixed width, which has messed up this page some what. I will add smaller thumbnails here at some point.
+*Page Layout:* `code.google.com` recently changed their page layouts to a fixed width, which has messed up this page some what. I will add smaller thumbnails here at some point.
 
 ===The Linux Kernel===
 
