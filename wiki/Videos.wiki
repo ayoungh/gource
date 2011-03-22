@@ -2,7 +2,7 @@
 
 *Note*: Command line options below should work with *Gource 0.27 and later*. If you have an older version I suggest [http://code.google.com/p/gource/downloads/list upgrading].
 
-I suggest you also check out the [http://code.google.com/p/gource/wiki/Controls Controls] section of the wiki for steps to customize the look of your videos.
+I suggest you also check out the [http://code.google.com/p/gource/wiki/Controls Controls] section of the wiki for steps to customize the look of Gource for your videos.
 
 == Recording Videos ==
 
