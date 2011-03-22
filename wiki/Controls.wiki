@@ -135,23 +135,20 @@ gource --bloom-multiplier 2.0 --bloom-intensity 1.5
 
 If you're sick of the bloom effect, you can turn it off with `--disable-bloom`.
 
-=== Elasticity ===
-
-Elasticity is a fun if somewhat pointless effect that controls how 'rubbery' directory branches behave when they have a force applied to them:
-
-{{{
-gource -e 0.5
-}}}
-
-
-== Misc ==
-
 === File Extension Key ===
 
 Pressing *K* or launching gource with --key enables a file extension key, showing the colours used for each file extension and the current number of files with that extension listed in descending order:
 
 {{{
 gource --key
+}}}
+
+=== Elasticity ===
+
+Elasticity is a fun if somewhat pointless effect that controls how 'rubbery' directory branches behave when they have a force applied to them:
+
+{{{
+gource -e 0.5
 }}}
 
 === Background ===
