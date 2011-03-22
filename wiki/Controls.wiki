@@ -2,6 +2,7 @@
 
 *Note*: some options may require the latest version of Gource.
 
+Check out the [http://code.google.com/p/gource/wiki/Videos Videos] section for examples and instructions for creating your own videos with Gource.
 
 == Display Settings ==
 
