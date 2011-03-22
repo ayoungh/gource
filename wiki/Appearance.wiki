@@ -31,19 +31,17 @@ You can also toggle the mode in Gource with the *V* key. *Tab* cycles though the
 
 === Panning ===
 
-Dragging the left mouse button on the background pans the camera. This will also disable automatic camera movement until you toggle the camera mode.
-
+Dragging the *left mouse button* on the background pans the camera. This will also disable automatic camera movement until you toggle the camera mode. You can also move the camera with the *arrow keys*.
 
 === Rotation ===
 
 As of 0.27, Gource will automatically rotate the view to make best use of the available screen space. If this is not to your liking, you can turn this off with --disable-auto-rotate.
 
-You can manually rotate the view by dragging right mouse button on the background. This will also disable automatic camera rotation until you toggle the camera mode.
+You can manually rotate the view by dragging *right mouse button* on the background. This will also disable automatic camera rotation until you toggle the camera mode.
 
 === Zoom ===
 
-You can change the maximum zoom distance with the *Mouse Wheel* and the *Up/Down Arrow Keys*.
-
+You can change the maximum zoom distance with the *mouse wheel*.
 
 == Tree Behavior ==
 
@@ -134,6 +132,14 @@ gource -e 0.5
 
 == Misc ==
 
+=== File Extension Key ===
+
+Pressing *K* or launching gource with --key enables a file extension key, showing the colours used for each file extension and the current number of files with that extension listed in descending order:
+
+{{{
+gource --key
+}}}
+
 === Background ===
 
 The background colour can be set with the --background option followed by a colour in hex format (like in HTML):
@@ -151,6 +157,10 @@ To set a background image:
 {{{
 gource --background-image background.png
 }}}
+
+=== Colour ===
+
+Press *S* to cycle through alternate colours for files and users. You can also specify an alternate colour hashing 'seed' on the command line with --hash-seed.
 
 === Date Format ===
 
