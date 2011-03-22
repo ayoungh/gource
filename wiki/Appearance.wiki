@@ -47,7 +47,7 @@ You can change the maximum zoom distance with the *mouse wheel*.
 
 Pause the action by pressing *space*. While paused, you can still move the camera around and inspect the details of files and users.
 
-== Tree Behavior ==
+== Timeline / Chronology ==
 
 === Start / Stop Position ===
 
