@@ -1,3 +1,4 @@
 #summary An overview of the controls that affect the appearance of Gource
+#labels Deprecated
 
 This section has been moved to [http://code.google.com/p/gource/wiki/Controls#Appearance Controls].
