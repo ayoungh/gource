@@ -1,4 +1,4 @@
-#summary An overview of the key appearance and behaviour control of gource
+#summary An overview of the interactive controls and command line options
 
 *Note*: some options may require the latest version of Gource.
 
