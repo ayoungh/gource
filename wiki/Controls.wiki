@@ -12,6 +12,8 @@ You can set the screen resolution with *`-WIDTHxHEIGHT`* and switch to full-scre
 gource -f -1280x720
 }}}
 
+For additional anti-aliasing use the --multi-sampling option.
+
 == Camera Controls ==
 
 === Camera Mode ===
