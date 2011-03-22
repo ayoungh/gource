@@ -3,14 +3,13 @@
 *Note*: some options may require the latest version of Gource.
 
 
-== Display ==
+== Display Settings ==
 
 You can set the screen resolution with *`-WIDTHxHEIGHT`* and switch to full-screen mode with *`-f`*. To set the view to full-screen 720p:
 
 {{{
 gource -f -1280x720
 }}}
-
 
 == Camera Controls ==
 
@@ -211,7 +210,7 @@ Set a title to appear in the bottom left corner of the screen:
 gource --title "My Project"
 }}}
 
-=== Hiding Display Elements ===
+=== Hiding Elements ===
 
 Sometimes it's hard to see the forest through the trees. To cull the brush:
 
