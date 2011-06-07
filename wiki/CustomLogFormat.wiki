@@ -48,6 +48,46 @@ Assuming 'my-custom-log-script.pl' periodically prints custom log format lines t
 
 == Custom Log Scripts ==
 
+=== Bugzilla ===
+
+[http://code.google.com/u/@VhhSSl1WAxlCVwh5/ Martin] contributes this query to generate a Gource custom log from a Bugzilla database:
+
+{{{
+SELECT
+        REPLACE(
+                CONCAT(date_changed, '|', login_name, '|', x, '|', description),
+        ' ', '_')
+FROM (
+        SELECT
+                UNIX_TIMESTAMP(a.bug_when) AS date_changed,
+                p.login_name AS login_name,
+                CASE
+                        WHEN (CHAR_LENGTH(added) > 0 AND CHAR_LENGTH(removed) = 0) THEN 'A'
+                        WHEN (CHAR_LENGTH(added) = 0 AND CHAR_LENGTH(removed) > 0)THEN 'D'
+                        WHEN (CHAR_LENGTH(added) > 0 AND CHAR_LENGTH(removed) > 0) THEN 'M'
+                END AS x,
+                CONCAT(cl.name, '/', pr.name, '/', c.name, '/', b.bug_id, ' - ', b.short_desc) AS description
+        FROM
+                bugs_activity a
+                LEFT JOIN
+                profiles p
+                        ON a.who = p.userid
+                LEFT JOIN
+                bugs b
+                        ON a.bug_id = b.bug_id
+                LEFT JOIN
+                products pr
+                        ON b.product_id = pr.id
+                LEFT JOIN
+                components c
+                        ON b.component_id = c.id
+                LEFT JOIN
+                classifications cl
+                        ON pr.classification_id = cl.id
+        ORDER BY a.bug_when ASC
+)
+}}}
+
 === DokuWiki ===
 
 _WolverineX02_ has created a script to display [http://www.dokuwiki.org DokuWiki] change history with Gource which you can get here:
@@ -56,7 +96,7 @@ http://www.dokuwiki.org/tips:gource_analysis
 
 === Perforce ===
 
-Olaf contributes this one shell one liner to convert Perforce logs to Gource custom log format:
+Gource doesn't include any built in support for Perforce currently. Olaf has created this one shell one liner to convert Perforce logs to Gource custom log format:
 
 {{{
 p4 changes ...|awk '{print $2}'|p4 -x - describe -s|awk '(/^Change / || /^... /) {if ($1 == "Change") {u=substr($4,1,index($4,"@")-1); t = $(NF-1) " " $NF; gsub("/"," ",t); gsub(":"," ",t);time=mktime(t);} else {if ($NF=="add") {c="A";} else if ($NF=="delete") {c="D";} else {c="M";};f=substr($2,3,index($2,"#")-3);print time "|" u "|" c "|" f;}}'|sort -n
