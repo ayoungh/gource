@@ -20,26 +20,26 @@ You may want to record your video in widescreen as that is the trend for online 
 
 ==FFmpeg using x264 codec==
 
-The below command lines will create a video at 60fps using the [http://en.wikipedia.org/wiki/X264 x264] codec in an [http://en.wikipedia.org/wiki/Matroska mkv] container.
+The below command lines will create a video at 60fps using the [http://en.wikipedia.org/wiki/X264 x264] codec in an mp4 container.
 
 This assumes you have recent version of ffmpeg *with libx264 support*. Some distributions like Ubuntu do not enable libx264 support by default in ffmpeg (See [http://ubuntuforums.org/showthread.php?t=1117283 this thread] for various ways to [http://ubuntuforums.org/showthread.php?t=1117283 enable libx264 support on Ubuntu]). Consult guides for your distribution if this is the case.
 
 In one command (raw video piped directly into ffmpeg):
 
 {{{
-gource -1280x720 -o - | ffmpeg -y -b 10000K -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -vpre slow -threads 0 -bf 0 gource.x264.mkv
+gource -1280x720 -o - | ffmpeg -y -b 10000K -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -vpre slow -threads 0 -bf 0 gource.x264.mp4
 }}}
 
 As two commands:
 
 {{{
 gource -1280x720 -o gource.ppm
-ffmpeg -y -b 10000K -r 60 -f image2pipe -vcodec ppm -i gource.ppm -vcodec libx264 -vpre slow -threads 0 -bf 0 gource.x264.mkv
+ffmpeg -y -b 10000K -r 60 -f image2pipe -vcodec ppm -i gource.ppm -vcodec libx264 -vpre slow -threads 0 -bf 0 gource.x264.mp4
 }}}
 
-This one has the advantage of keeping the raw video file (gource.ppm) so you can go back and tweak the encoding parameters if you don't like the quality or need a different format without recording the video again. The disadvantage is that this raw uncompressed video, and you can expect it to use up 100gs of gigs, so keep that in mind!
+This one has the advantage of keeping the raw video file (gource.ppm) so you can go back and tweak the encoding parameters if you don't like the output quality or need a different video format without recording the video again. The disadvantage is that this raw uncompressed video and you can expect it to use up 100gs of gigs, so keep that in mind!
 
-You can interchange the extension 'mkv' with 'avi' or 'mp4' to get ffmpeg to use a different container format for the video. 'avi' is typically discouraged for long videos as their is a 2GB file limit associated with that format.
+You can interchange the extension 'mp4' with 'mkv' or 'avi' to get ffmpeg to use a different container format for the video. 'avi' is typically discouraged for long videos as their is a 2GB file limit associated with that format.
 
 *Note*: ffmpeg seems to be a constantly moving target, so you may find you need slightly different arguments with your version. You may need to change '`-vpre medium`' to '`-fpre /path/to/libx264-blah.ffpreset`', for instance. There is a good guide to using x264 with ffmpeg [http://rob.opendot.cl/index.php/useful-stuff/ffmpeg-x264-encoding-guide/ here].
 
@@ -59,10 +59,10 @@ If you don't want to use an external capture program, here is an example command
 
 {{{
 gource -1280x720 -o gource.ppm
-C:\\ffmpeg\\bin\\ffmpeg -y -b 10000K -r 60 -f image2pipe -vcodec ppm -i gource.ppm -vcodec libx264 -fpre "C:\\ffmpeg\\presets\\libx264-slow.ffpreset" -threads 0 -bf 0 gource.x264.mkv
+C:\\ffmpeg\\bin\\ffmpeg -y -b 10000K -r 60 -f image2pipe -vcodec ppm -i gource.ppm -vcodec libx264 -fpre "C:\\ffmpeg\\presets\\libx264-slow.ffpreset" -threads 0 -bf 0 gource.x264.avi
 }}}
 
-You can interchange the extension 'mkv' with 'avi' or 'mp4' to get ffmpeg to use a different container format for the video. 'avi' is typically discouraged for long videos as their is a 2GB file limit associated with that format.
+You can interchange the extension 'avi' with 'mp4' or 'mkv' to get ffmpeg to use a different container format for the video. 'avi' is typically discouraged for long videos as their is a 2GB file limit associated with that format.
 
 *Note*: You may need to adjust the command line to point to where you installed ffmpeg, including the `-fpre` path to libx264-slow.ffpreset.
  
