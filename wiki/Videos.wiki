@@ -82,6 +82,11 @@ A collage of different open source software projects displayed using Gource:
 
 Various videos of projects created with Gource.
 
+
+=== Trade Me ===
+
+<wiki:video url="http://www.youtube.com/watch?v=34j9SvtYShQ">
+
 === Koha Library System ===
 
 <wiki:video url="http://www.youtube.com/watch?v=Tl1a2VN_pec">
@@ -114,9 +119,7 @@ Various videos of projects created with Gource.
 
 <wiki:video url="http://www.youtube.com/watch?v=fV5kKUYchpk">
 
-=== 25 Years of AmigaOS ===
-
-[http://www.hyperion-entertainment.biz/ Hyperion Entertainment] made this video celebrating [http://www.hyperion-entertainment.biz/index.php?option=com_content&view=article&id=141:twenty-five&catid=36:amigaos-4x&Itemid=18 25 years of AmigaOS development]:
+=== AmigaOS ===
 
 <wiki:video url="http://www.youtube.com/watch?v=5NJ1TlQwLTs">
 
