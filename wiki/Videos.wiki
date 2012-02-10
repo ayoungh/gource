@@ -58,7 +58,7 @@ On Windows if you aren't too fussed about the precision of the output, you might
 If you don't want to use an external capture program, here is an example command-line using the built in PPM frame capture support, using ffmpeg to generate a video:
 
 {{{
-gource -1280x720 -o gource.ppm
+gource -1280x720 -o gource.ppm C:\\path\\to\\code\\repository
 C:\\ffmpeg\\bin\\ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm -vcodec libx264 -preset ultrafast -crf 1 -threads 0 -bf 0 gource.x264.avi
 }}}
 
