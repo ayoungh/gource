@@ -126,14 +126,6 @@ Pressing *K* or launching gource with --key enables a file extension key, showin
 gource --key
 }}}
 
-=== Max Files ===
-
-Gource by default limits the number of files it will draw to 1000, which is a bit low for a lot of projects. You can set this to something else, or use '0' to turn this feature off:
-
-{{{
-gource --max-files 0
-}}}
-
 === Bloom ===
 
 Gource has some command line options to control the appearance of the 'light bloom' effect that appears around directories. You can affect the radius of the bloom using `--bloom-multiplier`, and the intensity using `--bloom-intensity`.
