@@ -118,6 +118,14 @@ Above, files must appear within 0.1 seconds (100ms).
 
 == Appearance ==
 
+=== Legend / File Extension Key ===
+
+Pressing *K* or launching gource with --key enables a file extension key, showing the colours used for each file extension and the current number of files with that extension listed in descending order:
+
+{{{
+gource --key
+}}}
+
 === Max Files ===
 
 Gource by default limits the number of files it will draw to 1000, which is a bit low for a lot of projects. You can set this to something else, or use '0' to turn this feature off:
@@ -137,14 +145,6 @@ gource --bloom-multiplier 2.0 --bloom-intensity 1.5
 }}}
 
 If you're sick of the bloom effect, you can turn it off with `--disable-bloom`.
-
-=== File Extension Key ===
-
-Pressing *K* or launching gource with --key enables a file extension key, showing the colours used for each file extension and the current number of files with that extension listed in descending order:
-
-{{{
-gource --key
-}}}
 
 === Elasticity ===
 
