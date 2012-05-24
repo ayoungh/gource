@@ -48,6 +48,12 @@ Assuming 'my-custom-log-script.pl' periodically prints custom log format lines t
 
 == Custom Log Scripts ==
 
+=== PacmanLog2Gource ===
+
+A script to visualize the activity of the Arch Linux package manager, [https://wiki.archlinux.org/index.php/Pacman pacman]:
+
+https://bbs.archlinux.org/viewtopic.php?id=138928
+
 === Bugzilla ===
 
 [http://code.google.com/u/@VhhSSl1WAxlCVwh5/ Martin] contributes this query to generate a Gource custom log from a Bugzilla database:
