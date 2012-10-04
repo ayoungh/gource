@@ -78,10 +78,14 @@ A collage of different open source software projects displayed using Gource:
 
 <wiki:video url="http://www.youtube.com/watch?v=E5xPMW5fg48">
 
-== Miscellaneous ==
+== Examples ==
 
 Various videos of projects created with Gource.
 
+
+=== Torchlight II ===
+
+<wiki:video url="http://www.youtube.com/watch?v=byNjZvZfvAM">
 
 === Trade Me ===
 
