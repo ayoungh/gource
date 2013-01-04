@@ -87,6 +87,10 @@ Various videos of projects created with Gource.
 
 <wiki:video url="http://www.youtube.com/watch?v=byNjZvZfvAM">
 
+=== Drupal ===
+
+<wiki:video url="http://www.youtube.com/watch?v=rzqDuh3Ng2M">
+
 === Trade Me ===
 
 <wiki:video url="http://www.youtube.com/watch?v=34j9SvtYShQ">
