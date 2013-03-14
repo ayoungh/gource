@@ -82,6 +82,9 @@ A collage of different open source software projects displayed using Gource:
 
 Various videos of projects created with Gource.
 
+=== Minecraft ===
+
+<wiki:video url="http://www.youtube.com/watch?v=zRjTyRly5WA">
 
 === Torchlight II ===
 
