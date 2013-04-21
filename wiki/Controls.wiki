@@ -192,7 +192,7 @@ Set a logo to appear in the foreground:
 gource --logo logo.png
 }}}
 
-The logo position can be changed with --logo-offset XyY.
+The logo position can be changed with --logo-offset XxY.
 
 === Title ===
 
