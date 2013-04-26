@@ -17,9 +17,9 @@ Gource can display captions along the timeline by specifying a caption file
 1327553595|Version 1.0 released
 }}}
 
-=== Other Caption Options ===
+=== Other Options ===
 
- * --caption-size SIZE        - The size of captions.
- * --caption-colour FFFFFF    - Caption colours in hex (eg FF0000).
- * --caption-duration SECONDS - How long each captions appears for in seconds.
- * --caption-offset PIXELS    - Horizontal offset of captions (0=centered).
+ * *caption-size* SIZE        - Font size of captions.
+ * *caption-colour* FFFFFF    - Caption colours in hex (eg FF0000).
+ * *caption-duration* SECONDS - How long each captions appears for in seconds.
+ * *caption-offset* PIXELS    - Horizontal offset of captions (0=centered).
