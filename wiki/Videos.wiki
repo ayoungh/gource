@@ -90,10 +90,6 @@ Various videos of projects created with Gource.
 
 <wiki:video url="http://www.youtube.com/watch?v=byNjZvZfvAM">
 
-=== Drupal ===
-
-<wiki:video url="http://www.youtube.com/watch?v=rzqDuh3Ng2M">
-
 === Trade Me ===
 
 <wiki:video url="http://www.youtube.com/watch?v=34j9SvtYShQ">
@@ -101,14 +97,6 @@ Various videos of projects created with Gource.
 === Koha Library System ===
 
 <wiki:video url="http://www.youtube.com/watch?v=Tl1a2VN_pec">
-
-=== JmonkeyEngine ===
-
-<wiki:video url="http://www.youtube.com/watch?v=rh7uo2gxLdA">
-
-=== Real Racing 2 ===
-
-<wiki:video url="http://www.youtube.com/watch?v=Wco8rAxk7AY">
 
 === OpenOffice ===
 
@@ -121,42 +109,6 @@ Various videos of projects created with Gource.
 === Homebrew ===
 
 <wiki:video url="http://www.youtube.com/watch?v=ZX0xCWANfW4">
-
-=== Lugaru ===
-
-<wiki:video url="http://www.youtube.com/watch?v=bNTN0IbPas0">
-
-=== CHIP Online (chip.de) ===
-
-<wiki:video url="http://www.youtube.com/watch?v=fV5kKUYchpk">
-
-=== AmigaOS ===
-
-<wiki:video url="http://www.youtube.com/watch?v=5NJ1TlQwLTs">
-
-=== RGN Vietnam Mod === 
-
-<wiki:video url="http://www.youtube.com/watch?v=fQjRf8qepoE">
-
-=== JBoss EJB 3 ===
-
-<wiki:video url="http://www.youtube.com/watch?v=w1q-vtcYYWE">
-
-=== OpenLDAP Development History === 
-
-<wiki:video url="http://www.youtube.com/watch?v=4sClZGLZ6dY">
-
-=== ArtBabble ===
-
-<wiki:video url="http://www.youtube.com/watch?v=KgCuU8DpNG8">
-
-=== PHProjekt 6 ===
-
-<wiki:video url="http://www.youtube.com/watch?v=zUB3MTp1T0o">
-
-=== Diplomarbeit ===
-
-<wiki:video url="http://www.youtube.com/watch?v=AvG--rQxYWk">
 
 == Git ===
 
