@@ -2,7 +2,7 @@
 
 = Mashups with Gource =
 
-Sometimes it may be interesting to show the history of multiple projects in the same Gource animation. For instance: sub modules used by your project, multiple projects worked on by the same developers / company, or maybe different forks of a project.
+Sometimes it may be interesting to show the history of multiple projects in the same Gource animation. For instance: development activity in sub modules used by a project, multiple projects worked on by the same developers / company, or maybe different forks of a project.
 
 There are lots of possibilities.
 
