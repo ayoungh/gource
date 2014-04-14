@@ -1,0 +1,7 @@
+*0.41*:
+
+ * [https://github.com/acaudwell/Gource/releases/download/gource-0.41/gource-0.41.tar.gz gource-0.41.tar.gz]
+ * [https://github.com/acaudwell/Gource/releases/download/gource-0.41/gource-0.41-setup.exe gource-0.41-setup.exe]
+ * [https://github.com/acaudwell/Gource/releases/download/gource-0.41/gource-0.41.win32.zip gource-0.41.win32.zip]
+
+Downloads are now hosted on Github. Past releases hosted on Google Code can be accessed [http://code.google.com/p/gource/downloads/list here].
