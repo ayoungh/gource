@@ -1,6 +1,8 @@
 *0.42*:
 
  * [https://github.com/acaudwell/Gource/releases/download/gource-0.42/gource-0.42.tar.gz gource-0.42.tar.gz]
+ * [https://github.com/acaudwell/Gource/releases/download/gource-0.42/gource-0.42-setup.exe gource-0.42-setup.exe]
+ * [https://github.com/acaudwell/Gource/releases/download/gource-0.42/gource-0.42.win32.zip gource-0.42.win32.zip]
 
 *0.41*:
 
