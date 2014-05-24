@@ -6,9 +6,10 @@
 
 By far the easiest way to record a video of Gource is using a third party video capture program. The only downside of this approach is you will have less control over the final encoding quality of the video and you may need to manually start and stop recording.
 
-[http://obsproject.com Open Broadcaster Software] (OBS) is a popular open-source video capture program available on multiple platforms.
+I recommend these programs:
 
-Another good capture program is [http://www.fraps.com Fraps] (Windows only).
+ * [http://obsproject.com Open Broadcaster Software] (Windows, support for other operating systems in development).
+ * [http://www.fraps.com Fraps] (Windows).
 
 === Raw Video Output and Encoding ===
 
