@@ -1,20 +1,26 @@
 #summary Creating videos with Gource.
 
-*Note*: Command line options below should work with *Gource 0.27 and later*. If you have an older version I suggest [http://code.google.com/p/gource/downloads/list upgrading].
-
-I suggest you also check out the [http://code.google.com/p/gource/wiki/Controls Controls] section of the wiki for steps to customize the look of Gource for your videos.
-
 == Recording Videos ==
 
-=== General ===
+=== Video Capture Software ===
 
-You can create a video of Gource using the `-o` (aka `--output-ppm-stream`) option. This creates an uncompressed sequence of screenshots in PPM format which can then be processed by a video encoder (such as `ffmpeg`) to produce a video.
+By far the easiest way to record a video of Gource is using a third party video capture program. The only downside of this approach is you will have less control over the final encoding quality of the video and you may need to manually start and stop recording.
+
+[http://obsproject.com Open Broadcaster Software] (OBS) is a popular open-source video capture program available on multiple platforms.
+
+Another good capture program is [http://www.fraps.com Fraps] (Windows only).
+
+=== Raw Video Output and Encoding ===
+
+You can capture raw video from Gource using the `-o` (aka `--output-ppm-stream`) option. This creates an uncompressed sequence of screenshots in PPM format which can then be processed by a video encoder (such as `ffmpeg`) to produce a video.
 
 You can also adjust the output frame rate with `-r` (aka `--output-framerate`). Note you will need to adjust the frame rate used by the encoder (eg `ffmpeg -r`) to match, unless you are going for a speed-up timelapse or slow motion effect.
 
 Make sure you keep the window of Gource entirely visible while recording. If you minimize or partially obscure the window, your video card may decide not draw the output consistently and you will get artifacts in your recording. You may like to use the `-f` option to run in full-screen mode to stop this happening.
 
 You may want to record your video in widescreen as that is the trend for online video now days. You can record in 720p by adding `-1280x720` to the command line.
+
+Also check out the [http://code.google.com/p/gource/wiki/Controls Controls] section of the wiki for steps to customize the look of Gource for your videos.
 
 === Linux / Mac ===
 
@@ -53,9 +59,7 @@ gource -1280x720 -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec l
 
 === Windows ===
 
-On Windows if you aren't too fussed about the precision of the output, you might want to try a direct video capture program like [http://www.fraps.com Fraps]. Fraps works with any program that uses OpenGL or Direct3D and is pretty fast (you can capture Gource at 60fps with no slow down in many cases).
-
-If you don't want to use an external capture program, here is an example command-line using the built in PPM frame capture support, using ffmpeg to generate a video:
+Here is an example command-line using the built in PPM frame capture support and ffmpeg to generate a video:
 
 {{{
 gource -1280x720 -o gource.ppm C:\\path\\to\\code\\repository
