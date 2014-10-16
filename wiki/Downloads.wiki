@@ -1,8 +1,8 @@
 *0.43*:
 
- * [https://github.com/acaudwell/Gource/releases/download/gource-0.43/gource-0.43.tar.gz gource-0.43.tar.gz] (current version for Windows is still 0.42)
+ * [https://github.com/acaudwell/Gource/releases/download/gource-0.43/gource-0.43.tar.gz gource-0.43.tar.gz]
 
-*0.42*:
+*0.42*: (current version on Windows)
 
  * [https://github.com/acaudwell/Gource/releases/download/gource-0.42/gource-0.42.tar.gz gource-0.42.tar.gz]
  * [https://github.com/acaudwell/Gource/releases/download/gource-0.42/gource-0.42-setup.exe gource-0.42-setup.exe]
