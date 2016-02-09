@@ -1,0 +1,1 @@
+This section has been moved to [Controls](http://code.google.com/p/gource/wiki/Controls#Appearance).
